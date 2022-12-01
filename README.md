@@ -31,58 +31,58 @@ Remarkable projects will be awarded as judges see fit.
 Prize: 40,000 CANTO
 * **Overall Winner**
 Prize: 100,000 CANTO
-
-
-## **Judging Criteria**
-
-**20%** – Originality, Creativity, & Innovation.
-
+  
+  
+## **Judging Criteria**  
+  
+**20%** – Originality, Creativity, & Innovation.  
+  
 **20%** – Canto-ish-ness. How well projects do one of the following items:
-* In step with Canto culture
-* Leverages or supports Canto Free Public Infrastructure
-* Leverages Contract Secured Revenue.
-
-**20%** – Expertise Required
-A high level of skill or knowledge or competency was demonstrated by the team members
-
-**20%** – User Experience
-Project presents as intuitive and understandable for its targeted user profile.
-
-**20%** – Sustainability
-A thoughtful plan for launch, maintenance, and/or further development.  
-
-
-
-## **Judges**
-
-The COH is pleased to announce the following judges for Chapter 1, Season 3:
-
-* **Zak Cole** – CTO, Slingshot Finance
-* **Joseph Delong** – CTO, Astaria.xyz
-* **Chase Devens** – Research Analyst, Messari
-* **Dan Elitzer** – Co-founder, Nascent
-* **TK Kwon** – CTO, Plex, Contributor, Canto
-* **Preston Van Loon** – Ethereum Core Dev
-* **Alexandre Mortreux** – Design Director, Ankr, Contributor, Canto
+* In step with Canto culture  
+* Leverages or supports Canto Free Public Infrastructure  
+* Leverages Contract Secured Revenue.  
+  
+**20%** – Expertise Required  
+A high level of skill or knowledge or competency was demonstrated by the team members  
+  
+**20%** – User Experience  
+Project presents as intuitive and understandable for its targeted user profile.  
+  
+**20%** – Sustainability  
+A thoughtful plan for launch, maintenance, and/or further development.    
+  
+  
+  
+## **Judges**  
+  
+The COH is pleased to announce the following judges for Chapter 1, Season 3:  
+  
+* **Zak Cole** – CTO, Slingshot Finance  
+* **Joseph Delong** – CTO, Astaria.xyz  
+* **Chase Devens** – Research Analyst, Messari  
+* **Dan Elitzer** – Co-founder, Nascent  
+* **TK Kwon** – CTO, Plex, Contributor, Canto  
+* **Preston Van Loon** – Ethereum Core Dev  
+* **Alexandre Mortreux** – Design Director, Ankr, Contributor, Canto  
 * **The OG** – Contributor, Cantoadz, Canto Public Messenger Service 
-* **William De Vogelare** – DeFi Enjoyer, Prev. Polygon, Spankchain
-
-## **Important Dates**
-
-**12/1** – Registration Ongoing at [**thecoh.build**](https://thecoh.build)
-**12/1** – Begin Building
-**12/5** – The Elevator, 6pm-7pm UTC, [**Save Your Spot**](https://crowdcast.io/c/s3elevator)
+* **William De Vogelare** – DeFi Enjoyer, Prev. Polygon, Spankchain  
+  
+## **Important Dates**  
+  
+**12/1** – Registration Ongoing at [**thecoh.build**](https://thecoh.build)  
+**12/1** – Begin Building  
+**12/5** – The Elevator, 6pm-7pm UTC, [**Save Your Spot**](https://crowdcast.io/c/s3elevator)  
 The Elevator is a project pitch session: your chance to pitch your idea(s) to fellow builders and Canto mentors. Get direct feedback, learn about potential projects, and grow your team. 
-**12/8** – Share Project Title, Summary, & Progress Update with COH organizers
-**12/15** – Projects Due. Must submit pre-recorded video and PR to this repo by 11:59pm UTC.
-**12/17** – Judging Ceremony at 6pm UTC
-**12/18-19** – Winners Announced (TBD)
-
+**12/8** – Share Project Title, Summary, & Progress Update with COH organizers  
+**12/15** – Projects Due. Must submit pre-recorded video and PR to this repo by 11:59pm UTC.  
+**12/17** – Judging Ceremony at 6pm UTC  
+**12/18-19** – Winners Announced (TBD)  
+  
 ## **Project Requirements** ## 
-
+  
 **Teams must submit a PR to this repo before 11:59pm UTC on 12/15.** 
 If builders wish to keep their project private, please contact hackathon organizers to ensure judges' github handles are added to your project. 
-
+  
 **Teams must provide a pre-recorded video (max 5 minutes).** 
 This video will be played during the live judging ceremony and can be a working demo and/or a presentation outlining the project (i.e. what was accomplished during the COH, what’s next). For examples of hackathon presentation videos please review the [judging ceremony](https://www.youtube.com/watch?v=A4A4y4FE6u0) from a previous COH season. 
 

@@ -72,7 +72,7 @@ The COH is pleased to announce the following judges for Chapter 1, Season 3:
 **12/1** – Registration Ongoing at [**thecoh.build**](https://thecoh.build)  
 **12/1** – Begin Building  
 **12/5** – The Elevator, 6pm-7pm UTC, [**Save Your Spot**](https://crowdcast.io/c/s3elevator)  
-The Elevator is a project pitch session: your chance to pitch your idea(s) to fellow builders and Canto mentors. Get direct feedback, learn about potential projects, and grow your team. 
+  The Elevator is a project pitch session: your chance to pitch your idea(s) to fellow builders and Canto mentors. Get direct feedback, learn about potential projects, and grow your team. 
 **12/8** – Share Project Title, Summary, & Progress Update with COH organizers  
 **12/15** – Projects Due. Must submit pre-recorded video and PR to this repo by 11:59pm UTC.  
 **12/17** – Judging Ceremony at 6pm UTC  
@@ -90,7 +90,7 @@ This video will be played during the live judging ceremony and can be a working 
 
 ## **Builder Resources**
 ## 
-
+  
 * **The COH Telegram** – Builders are encouraged to discuss projects in [The COH Builders Telegram Channel](https://t.me/+aXvNO-ZcrWZjYTIx) 
 * **Attend the Elevator Project Pitch Session** (12/5) to pitch your idea, get direct feedback from mentors, and to meet other builders.
 * **Book a private meeting** with Headwater to get help or direction – https://calendly.com/nassim-/30min

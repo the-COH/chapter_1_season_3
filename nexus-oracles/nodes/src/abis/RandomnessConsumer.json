@@ -1,0 +1,178 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "cycleRelayerAddress_",
+        "type": "address"
+      },
+      {
+        "internalType": "address",
+        "name": "randomnessOracleAddress_",
+        "type": "address"
+      }
+    ],
+    "stateMutability": "nonpayable",
+    "type": "constructor"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "uint256",
+        "name": "commitmentId",
+        "type": "uint256"
+      },
+      {
+        "indexed": true,
+        "internalType": "address",
+        "name": "committer",
+        "type": "address"
+      },
+      {
+        "indexed": true,
+        "internalType": "address",
+        "name": "commitFor",
+        "type": "address"
+      }
+    ],
+    "name": "Commit",
+    "type": "event"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "uint32",
+        "name": "cycleId_",
+        "type": "uint32"
+      },
+      {
+        "internalType": "address",
+        "name": "commitFor_",
+        "type": "address"
+      }
+    ],
+    "name": "commit",
+    "outputs": [
+      {
+        "internalType": "uint256",
+        "name": "commitmentId",
+        "type": "uint256"
+      }
+    ],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "uint256",
+        "name": "",
+        "type": "uint256"
+      }
+    ],
+    "name": "commitments",
+    "outputs": [
+      {
+        "internalType": "address",
+        "name": "committer",
+        "type": "address"
+      },
+      {
+        "internalType": "address",
+        "name": "commitFor",
+        "type": "address"
+      },
+      {
+        "internalType": "uint32",
+        "name": "cycleId",
+        "type": "uint32"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "",
+        "type": "address"
+      },
+      {
+        "internalType": "uint32",
+        "name": "",
+        "type": "uint32"
+      }
+    ],
+    "name": "cycleCommitters",
+    "outputs": [
+      {
+        "internalType": "bool",
+        "name": "",
+        "type": "bool"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "cycleRelayer",
+    "outputs": [
+      {
+        "internalType": "contract CycleRelayer",
+        "name": "",
+        "type": "address"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "uint256",
+        "name": "commitmentId_",
+        "type": "uint256"
+      }
+    ],
+    "name": "getRandomValue",
+    "outputs": [
+      {
+        "internalType": "uint256",
+        "name": "result",
+        "type": "uint256"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "nextCommitmentId",
+    "outputs": [
+      {
+        "internalType": "uint256",
+        "name": "",
+        "type": "uint256"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "randomnessOracle",
+    "outputs": [
+      {
+        "internalType": "contract RandomnessOracle",
+        "name": "",
+        "type": "address"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  }
+]

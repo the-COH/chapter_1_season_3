@@ -1,5 +1,0 @@
-Attached are the lyrics that we have chosen to feature in Chapter 1, 
-which will introduce a "Canto City" setting, to the "Canto Specters" Storytelling aspect, that we hope to release on social media for promotion. 
-This song is related to the theme of the prologue, and how the main character feels unhappy, and wishes to go to "Canto City" to find a greater and better community.
-The storyline features a Specter who feels very unhappy with the current town they reside in and wish to take a "train" to "Canto City" (See twitter for more context)
-This song is likewise a personal song to the team as it draws in parallels to reflect the idea of how many people in the web 3 currently feel exhausted from the hectic and chaotic "mainstream chains" and need to leave someplace where they are welcomed with open arms. ( aka canto :) )

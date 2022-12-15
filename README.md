@@ -1,6 +1,6 @@
 ## Canto Online Hackathon | Chapter 1, Season 3 | December 1 - 17
 
-## **About "Conto Specters"**
+## **About "Conto Specters" 👻**
 
 "Canto Specters: An Exploration of Human Struggles & Passions"
 
@@ -11,7 +11,7 @@ In order to create a safe & welcoming space, we are seeking to build a community
 who seek to form bonds, build deeper trust, and promote mental health on the Canto network!
 
 
-## **About "Song"**
+## **About "Song" 🎵**
 
 Attached are the lyrics that we have chosen to feature in Chapter 1, which will introduce a "Canto City" setting, to the "Canto Specters" Storytelling aspect,
 that we hope to release on social media for promotion. 
@@ -20,7 +20,7 @@ The storyline features a "Specter" who feels very unhappy with the current town 
 This song is likewise a personal song to the team as it draws in parallels to reflect the idea of how many people in the web 3 currently feel burnt out from the hectic and chaotic of "mainstream chains" and need to leave someplace safe and welcoming (hi canto 😊). 
 
 
-## **About "App"**
+## **About "App" 📱**
 
 The wireframing for the app is finished, and work on the GUI and functionality of the app has begung. 
 Since we want to include a crypto wallet in the application for the tokens earned through the "M2E" mechanism, we have decided to make our App fully open source!

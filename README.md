@@ -37,7 +37,10 @@ Flutter is an open-source UI software development kit created by Google. It is u
 $ git clone https://github.com/cantospecters/chapter_1_season_3
 
 ### Go into the repository
+```bash
 $ cd App
+```
 Download Android Studio or Visual Studio with Flutter editor plugins. After that, open the project and install dependencies from pubspec.yaml by running the following command:
-
+```bash
 $ flutter packages get
+```

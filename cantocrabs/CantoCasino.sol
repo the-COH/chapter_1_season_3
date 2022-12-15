@@ -169,8 +169,6 @@ contract Roulette is Auth, CasinoGame, Referral, NFTRevenue {
 
         uint256 previousBetId = playerToBetId[msg.sender];
 
-        //TODO: GET RANDOM NUMBER AND ANALYZE THE ANSWER
-
         uint256 hashNumber = random();
 
         uint256 rolledNumber = (hashNumber % 36) + 1;

@@ -7,7 +7,6 @@ Starting with 2 products;
 - cat.alyst (Catalyst) ; a crowdfunding platform where artist, organisation, projects can create campaigns to raise 
                          funds akin to the likes of Kickstarter/Indiegogo/GoFundMe.
 
-
 TWITTER
 https://twitter.com/alyst_xyz
 
@@ -17,3 +16,6 @@ https://github.com/alystxyz/alyst
 
 ALYST SMART CONTRACT 
 https://github.com/alystxyz/alyst-smart-contract
+
+
+CANTO!

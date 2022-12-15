@@ -1,18 +1,15 @@
 import type { AppProps } from 'next/app'
 import '@rainbow-me/rainbowkit/styles.css'
 import { getDefaultWallets, RainbowKitProvider } from '@rainbow-me/rainbowkit'
-import { chain, configureChains, createClient, WagmiConfig } from 'wagmi'
-import { infuraProvider } from 'wagmi/providers/infura'
+import { WagmiConfig, createClient, configureChains } from 'wagmi'
+import { canto } from '~/constants/canto'
 import { publicProvider } from 'wagmi/providers/public'
 import { ThemeProvider } from '@kalidao/reality'
 import '@kalidao/reality/styles'
 import { getRainbowTheme } from '~/utils/getRainbowTheme'
 import '~/design/app.css'
 
-const { chains, provider } = configureChains(
-  [chain.mainnet, chain.polygon, chain.optimism, chain.arbitrum],
-  [infuraProvider({ apiKey: process.env.NEXT_PUBLIC_INFURA_ID }), publicProvider()],
-)
+const { chains, provider } = configureChains([canto], [publicProvider()])
 
 const { connectors } = getDefaultWallets({
   appName: 'K-Plate UI',

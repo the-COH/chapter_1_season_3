@@ -34,7 +34,9 @@ Flutter is an open-source UI software development kit created by Google. It is u
 
 
 ### Clone this repository
+```bash
 $ git clone https://github.com/cantospecters/chapter_1_season_3
+```
 
 ### Go into the repository
 ```bash

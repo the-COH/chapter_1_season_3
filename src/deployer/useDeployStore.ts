@@ -11,10 +11,12 @@ interface DeployStore {
   setMission: (mission: string) => void
   founders: {
     address: string
-    amount: number
+    amount: string
   }[]
+  addFounder: () => void
+  deleteFounder: (index: number) => void
   addFounderAddress: (index: number, address: string) => void
-  addFounderAmount: (index: number, amount: number) => void
+  addFounderAmount: (index: number, amount: string) => void
 }
 
 export const useDeployStore = create<DeployStore>((set) => ({
@@ -29,15 +31,30 @@ export const useDeployStore = create<DeployStore>((set) => ({
   founders: [
     {
       address: '',
-      amount: 0,
+      amount: '0',
     },
   ],
+  addFounder: () => {
+    set((state) => {
+      state.founders.push({
+        address: '',
+        amount: '1000',
+      })
+      return state
+    })
+  },
+  deleteFounder: (index: number) => {
+    set((state) => {
+      state.founders.splice(index, 1)
+      return state
+    })
+  },
   addFounderAddress: (index: number, address: string) =>
     set((state) => {
       state.founders[index].address = address
       return state
     }),
-  addFounderAmount: (index: number, amount: number) =>
+  addFounderAmount: (index: number, amount: string) =>
     set((state) => {
       state.founders[index].amount = amount
       return state

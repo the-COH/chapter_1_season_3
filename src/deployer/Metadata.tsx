@@ -8,7 +8,6 @@ type Props = {
 }
 
 export default function Identity({ setStep }: Props) {
-  const logo = useDeployStore((state) => state.logo)
   const setLogo = useDeployStore((state) => state.setLogo)
   const mission = useDeployStore((state) => state.mission)
   const setMission = useDeployStore((state) => state.setMission)

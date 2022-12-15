@@ -4,7 +4,7 @@ import Footer from './Footer'
 import Header from './Header'
 import * as styles from './styles.css'
 
-type LayoutProps = {
+export type LayoutProps = {
   heading: string
   content: string
   children?: React.ReactNode

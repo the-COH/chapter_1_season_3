@@ -1,1 +1,49 @@
-export const FACTORY_ABI = [] as const
+export const FACTORY_ABI = [
+  {
+    type: 'constructor',
+    stateMutability: 'payable',
+    inputs: [{ type: 'address', name: 'kaliMaster_', internalType: 'address payable' }],
+  },
+  { type: 'error', name: 'DeploymentFailed', inputs: [] },
+  {
+    type: 'event',
+    name: 'DAOdeployed',
+    inputs: [
+      { type: 'address', name: 'kaliDAO', internalType: 'contract KaliDAO', indexed: true },
+      { type: 'string', name: 'name', internalType: 'string', indexed: false },
+      { type: 'string', name: 'symbol', internalType: 'string', indexed: false },
+      { type: 'string', name: 'docs', internalType: 'string', indexed: false },
+      { type: 'bool', name: 'paused', internalType: 'bool', indexed: false },
+      { type: 'address[]', name: 'extensions', internalType: 'address[]', indexed: false },
+      { type: 'bytes[]', name: 'extensionsData', internalType: 'bytes[]', indexed: false },
+      { type: 'address[]', name: 'voters', internalType: 'address[]', indexed: false },
+      { type: 'uint256[]', name: 'shares', internalType: 'uint256[]', indexed: false },
+      { type: 'uint64[16]', name: 'govSettings', internalType: 'uint64[16]', indexed: false },
+    ],
+    anonymous: false,
+  },
+  {
+    type: 'function',
+    stateMutability: 'payable',
+    outputs: [],
+    name: 'deployKaliDAO',
+    inputs: [
+      { type: 'string', name: 'name_', internalType: 'string' },
+      { type: 'string', name: 'symbol_', internalType: 'string' },
+      { type: 'string', name: 'docs_', internalType: 'string' },
+      { type: 'bool', name: 'paused_', internalType: 'bool' },
+      { type: 'address[]', name: 'extensions_', internalType: 'address[]' },
+      { type: 'bytes[]', name: 'extensionsData_', internalType: 'bytes[]' },
+      { type: 'address[]', name: 'voters_', internalType: 'address[]' },
+      { type: 'uint256[]', name: 'shares_', internalType: 'uint256[]' },
+      { type: 'uint64[16]', name: 'govSettings_', internalType: 'uint64[16]' },
+    ],
+  },
+  {
+    type: 'function',
+    stateMutability: 'payable',
+    outputs: [{ type: 'bytes[]', name: 'results', internalType: 'bytes[]' }],
+    name: 'multicall',
+    inputs: [{ type: 'bytes[]', name: 'data', internalType: 'bytes[]' }],
+  },
+] as const

@@ -1,4 +1,0 @@
-[submodule "alto"]
-	path = alto
-	url = git@github.com:haf-decent/alto-marketplace-next.git
-	branch = COH

@@ -1,0 +1,3 @@
+[submodule "launchpadContracts"]
+	path = launchpadContracts
+	url = git@github.com:ColinPlatt/launchpad.git

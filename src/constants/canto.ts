@@ -20,5 +20,5 @@ export const canto: Chain & Icon = {
     default: { name: 'Canto EVM Explorer (Blockscout)', url: 'https://evm.explorer.canto.io/' },
   },
   testnet: false,
-  iconUrl: '/chains/canto.png',
+  iconUrl: '/chains/canto.svg',
 }

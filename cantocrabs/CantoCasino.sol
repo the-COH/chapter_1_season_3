@@ -255,7 +255,7 @@ contract Roulette is Auth, CasinoGame, Referral, NFTRevenue {
 
     function random() internal view returns (uint256) {
         /*
-        Internal RNG Generation
+        Internal RNG Generation. Implemented in Canto Release
         */
     }
 }

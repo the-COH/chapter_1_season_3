@@ -26,17 +26,17 @@ The wireframing for the app is finished, and work on the GUI and functionality o
 Since we want to include a crypto wallet in the application for the tokens earned through the "M2E" mechanism, we have decided to make our App fully open source!
 This also fits in the ethos of web 3, and "Don't Trust, Verify", and we have decided to include it in our submission despite it's pre-alpha state.
 
-## **Build Instructions" 📱**
+## **Build Instructions 📱**
 The App was written with Flutter;
 
 Flutter is an open-source UI software development kit created by Google. It is used to develop cross-platform applications for Android, iOS, Linux, macOS, Windows, Google Fuchsia, and the web from a single codebase. 
 
 
 
-# Clone this repository
+### Clone this repository
 $ git clone https://github.com/cantospecters/chapter_1_season_3
 
-# Go into the repository
+### Go into the repository
 $ cd App
 Download Android Studio or Visual Studio with Flutter editor plugins. After that, open the project and install dependencies from pubspec.yaml by running the following command:
 

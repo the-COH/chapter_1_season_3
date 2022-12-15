@@ -1,0 +1,47 @@
+{
+  "name": "create-react-app-with-typescript",
+  "version": "1.22.19",
+  "private": true,
+  "dependencies": {
+    "@apollo/client": "^3.6.9",
+    "@emotion/react": "latest",
+    "@emotion/styled": "latest",
+    "@mui/icons-material": "^5.8.4",
+    "@mui/material": "latest",
+    "@mui/x-data-grid": "^5.17.1",
+    "@neobase-one/splits-sdk": "0.1.0",
+    "@neobase-one/splits-sdk-react": "0.1.0",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "axios": "^0.27.2",
+    "ethers": "^5.7.2",
+    "graphql": "^16.6.0",
+    "jwt-decode": "^3.1.2",
+    "@neobase-one/neobase-components": "0.1.0",
+    "prop-types": "^15.8.1",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-router-dom": "^6.3.0",
+    "react-scripts": "latest",
+    "typescript": "latest",
+    "wagmi": "^0.8.10"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

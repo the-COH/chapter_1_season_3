@@ -12,7 +12,7 @@ import '~/design/app.css'
 const { chains, provider } = configureChains([canto], [publicProvider()])
 
 const { connectors } = getDefaultWallets({
-  appName: 'K-Plate UI',
+  appName: 'Kali | Canto',
   chains,
 })
 
@@ -28,7 +28,7 @@ function MyApp({ Component, pageProps }: AppProps) {
   return (
     <WagmiConfig client={wagmiClient}>
       <RainbowKitProvider chains={chains} theme={rainbowTheme}>
-        <ThemeProvider defaultMode="dark" forcedMode="dark">
+        <ThemeProvider defaultMode="dark" forcedMode="dark" defaultAccent="green">
           <Component {...pageProps} />
         </ThemeProvider>
       </RainbowKitProvider>

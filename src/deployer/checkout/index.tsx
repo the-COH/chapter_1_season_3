@@ -4,7 +4,7 @@ import { FieldSet, Input } from '@kalidao/reality'
 import { useDeployStore } from '../useDeployStore'
 import Review from './Review'
 import { useContractWrite } from 'wagmi'
-import { contracts, FACTORY_ABI } from '~/constants'
+import { contracts, FACTORY_ABI, WRAPPR_ABI } from '~/constants'
 import { useRouter } from 'next/router'
 import { ethers, BigNumber } from 'ethers'
 import { uploadFile, uploadJSON } from '~/utils/upload'
@@ -24,6 +24,7 @@ export default function Checkout({ setStep }: Props) {
   const [message, setMessage] = useState<string>('')
   const state = useDeployStore((state) => state)
   const router = useRouter()
+  const dao_address = useDeployStore((state) => state.dao_address)
 
   const deploy = async () => {
     setMessage('Preparing the summoning...')
@@ -84,6 +85,19 @@ export default function Checkout({ setStep }: Props) {
       setMessage('Error uploading metadata ☹️')
       return
     }
+
+    // non-profit wrappr
+    const iface = new ethers.utils.Interface(WRAPPR_ABI)
+    const unaPayload = iface.encodeFunctionData('mint', [
+      dao_address,
+      BigNumber.from(ethers.utils.arrayify(dao_address)),
+      BigNumber.from(1),
+      ethers.constants.HashZero,
+      docs_,
+      dao_address,
+    ])
+    extensionsArray.push(contracts[7700]['una'])
+    extensionsData.push(unaPayload)
 
     try {
       const tx = await writeAsync?.({

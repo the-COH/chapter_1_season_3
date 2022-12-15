@@ -4,6 +4,7 @@ import { FieldSet, Input } from '@kalidao/reality'
 import { useDeployStore } from '../useDeployStore'
 import Review from './Review'
 import * as styles from '../styles.css'
+import { computeKaliAddress } from '~/utils/computeKaliAddress'
 
 export default function Checkout() {
   const name = useDeployStore((state) => state.name)
@@ -11,10 +12,12 @@ export default function Checkout() {
   const logo = useDeployStore((state) => state.logo)
   const mission = useDeployStore((state) => state.mission)
   const founders = useDeployStore((state) => state.founders)
-  const fileReader = new FileReader()
+  const dao_address = useDeployStore((state) => state.dao_address)
 
   return (
     <Stack>
+      <Text weight="semiBold">Review</Text>
+      <Row label="Address" value={dao_address} />
       <Row label="Name" value={name} />
       <Row label="Symbol" value={symbol} />
       <Stack>

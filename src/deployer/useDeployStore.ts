@@ -1,6 +1,9 @@
 import create from 'zustand'
+import { computeKaliAddress, fetchKaliAddress } from '~/utils/computeKaliAddress'
 
 interface DeployStore {
+  dao_address: string
+  setDaoAddress: (name: string) => void
   name: string
   setName: (name: string) => void
   symbol: string
@@ -20,8 +23,15 @@ interface DeployStore {
 }
 
 export const useDeployStore = create<DeployStore>((set) => ({
+  dao_address: '',
+  setDaoAddress: async (name: string) => {
+    const address = await fetchKaliAddress(name)
+    set({ dao_address: address })
+  },
   name: '',
-  setName: (name: string) => set({ name }),
+  setName: (name: string) => {
+    set({ name })
+  },
   symbol: '',
   setSymbol: (symbol: string) => set({ symbol }),
   logo: null,

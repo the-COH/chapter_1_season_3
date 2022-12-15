@@ -12,6 +12,7 @@ export default function Identity({ setStep }: Props) {
   const setName = useDeployStore((state) => state.setName)
   const symbol = useDeployStore((state) => state.symbol)
   const setSymbol = useDeployStore((state) => state.setSymbol)
+  const setDaoAddress = useDeployStore((state) => state.setDaoAddress)
   const [nameError, setNameError] = useState('')
   const [symbolError, setSymbolError] = useState('')
 
@@ -31,8 +32,9 @@ export default function Identity({ setStep }: Props) {
     }
   }
 
-  const submit = () => {
+  const submit = async () => {
     if (name === '' || symbol === '') return
+    await setDaoAddress(name)
     setStep(1)
   }
 

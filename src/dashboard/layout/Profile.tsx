@@ -30,6 +30,8 @@ const Profile = () => {
       </Card>
     )
 
+  console.log('meta', meta, token)
+
   return (
     <Card padding="6" width="full">
       <Stack

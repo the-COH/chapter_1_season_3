@@ -16,6 +16,7 @@ export const header = style({
   paddingRight: vars.space['5'],
   paddingLeft: vars.space['5'],
   paddingTop: vars.space['4'],
+  paddingBottom: vars.space['4'],
   display: 'flex',
   alignItems: 'center',
   justifyContent: 'space-between',

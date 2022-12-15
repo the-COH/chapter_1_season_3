@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "@kalidao/hooks": "^0.0.5",
-    "@kalidao/reality": "^0.0.5",
+    "@kalidao/reality": "^0.0.12",
     "@radix-ui/react-progress": "^1.0.1",
     "@rainbow-me/rainbowkit": "^0.8.1",
     "axios": "^1.2.1",

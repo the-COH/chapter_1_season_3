@@ -1,0 +1,11 @@
+export enum TokenModalType {
+	ASK,
+	UPDATE_ASK,
+	FILL_ASK,
+	CANCEL_ASK,
+	OFFER,
+	UPDATE_OFFER,
+	FILL_OFFER,
+	CANCEL_OFFER,
+	TRANSFER
+}
